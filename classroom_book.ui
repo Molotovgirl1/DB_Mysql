@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>classroom_book</class>
+ <widget class="QWidget" name="classroom_book">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>825</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/珀呢/Desktop/nankai1.png</normaloff>C:/Users/珀呢/Desktop/nankai1.png</iconset>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>825</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(17, 100, 255);</string>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(17, 100, 255);
+border-right-color: rgb(17, 100, 255);
+color: rgb(255, 255, 255);
+border-color:rgb(17, 100, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>0</y>
+      <width>70</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>选择预约</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>390</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预约时间段：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>11</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2023-05-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>15：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>16：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>剩余预约数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>39</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>99</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/qt pic/white.jpg);
+border-image: url(:/qt pic/white.jpg);
+image: url(:/qt pic/white.jpg);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_58">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>48</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 4, 255);</string>
+    </property>
+    <property name="text">
+     <string>可预约</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>412</x>
+     <y>30</y>
+     <width>3</width>
+     <height>370</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>125</y>
+     <width>390</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预约时间段：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>11</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2023-05-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>16：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>17：00</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/qt pic/white.jpg);
+border-image: url(:/qt pic/white.jpg);
+image: url(:/qt pic/white.jpg);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>剩余预约数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>39</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>11</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_59">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>48</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 4, 255);</string>
+    </property>
+    <property name="text">
+     <string>可预约</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>390</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预约时间段：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_22">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>11</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2023-05-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_28">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>17：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_40">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_46">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>剩余预约数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_52">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>39</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/qt pic/white.jpg);
+border-image: url(:/qt pic/white.jpg);
+image: url(:/qt pic/white.jpg);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_60">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>48</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 4, 255);</string>
+    </property>
+    <property name="text">
+     <string>可预约</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>390</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预约时间段：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_23">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>11</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2023-05-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>18：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_35">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_41">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>19：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_47">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>剩余预约数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_53">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>39</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/qt pic/white.jpg);
+border-image: url(:/qt pic/white.jpg);
+image: url(:/qt pic/white.jpg);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_61">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>48</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 4, 255);</string>
+    </property>
+    <property name="text">
+     <string>可预约</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>40</y>
+     <width>390</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预约时间段：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_24">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>11</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2023-05-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>19：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_36">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_42">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>20：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_48">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>剩余预约数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_54">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>39</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/qt pic/white.jpg);
+border-image: url(:/qt pic/white.jpg);
+image: url(:/qt pic/white.jpg);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_62">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>48</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 4, 255);</string>
+    </property>
+    <property name="text">
+     <string>可预约</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_7" native="true">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>125</y>
+     <width>390</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预约时间段：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_25">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>11</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2023-05-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_31">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>20：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_37">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_43">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>21：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_49">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>剩余预约数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_55">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>39</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/qt pic/white.jpg);
+border-image: url(:/qt pic/white.jpg);
+image: url(:/qt pic/white.jpg);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_63">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>48</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 4, 255);</string>
+    </property>
+    <property name="text">
+     <string>可预约</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_8" native="true">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>210</y>
+     <width>390</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预约时间段：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>11</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2023-05-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_32">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>21：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_38">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_44">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>22：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_50">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>剩余预约数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_56">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>39</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/qt pic/white.jpg);
+border-image: url(:/qt pic/white.jpg);
+image: url(:/qt pic/white.jpg);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_64">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>48</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 4, 255);</string>
+    </property>
+    <property name="text">
+     <string>可预约</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_9" native="true">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>295</y>
+     <width>390</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预约时间段：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_27">
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>11</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>2023-05-10</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_33">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>22：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_39">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>30</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>~</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_45">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>11</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>23：00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_51">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>剩余预约数：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_57">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>39</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>30</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/qt pic/white.jpg);
+border-image: url(:/qt pic/white.jpg);
+image: url(:/qt pic/white.jpg);</string>
+    </property>
+    <property name="text">
+     <string>&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_65">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>48</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(0, 4, 255);</string>
+    </property>
+    <property name="text">
+     <string>可预约</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

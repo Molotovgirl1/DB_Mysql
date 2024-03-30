@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../qt pic/telephone.png</file>
+    </qresource>
+</RCC>

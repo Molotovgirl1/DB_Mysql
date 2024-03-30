@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>825</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>825</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>825</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>南开大学浴园预约系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/珀呢/Desktop/nankai1.png</normaloff>C:/Users/珀呢/Desktop/nankai1.png</iconset>
+  </property>
+  <property name="toolTip">
+   <string>这是南开大学浴园浴园管理系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>150</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(119, 136, 153);</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>-2</x>
+       <y>-4</y>
+       <width>154</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(119, 136, 153);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>个人中心</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>-2</x>
+       <y>22</y>
+       <width>154</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(119, 136, 153);
+color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>我的预约</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>-2</x>
+       <y>48</y>
+       <width>154</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(119, 136, 153);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>进行预约</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>-2</x>
+       <y>126</y>
+       <width>154</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(119, 136, 153);
+color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>预约规则</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_17">
+     <property name="geometry">
+      <rect>
+       <x>-2</x>
+       <y>74</y>
+       <width>154</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(119, 136, 153);
+color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>查看通知</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_18">
+     <property name="geometry">
+      <rect>
+       <x>-2</x>
+       <y>100</y>
+       <width>154</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(119, 136, 153);
+color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>进行反馈</string>
+     </property>
+    </widget>
+    <zorder>pushButton</zorder>
+    <zorder>pushButton_2</zorder>
+    <zorder>pushButton_3</zorder>
+    <zorder>pushButton_17</zorder>
+    <zorder>pushButton_18</zorder>
+    <zorder>pushButton_4</zorder>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>-10</y>
+      <width>675</width>
+      <height>420</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page0">
+     <widget class="QLabel" name="label0">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>291</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>36</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(123, 183, 255);</string>
+      </property>
+      <property name="text">
+       <string>welcome ^_^ !</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>90</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>36</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 152, 159);</string>
+      </property>
+      <property name="text">
+       <string>id</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>10</y>
+        <width>361</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/qt pic/welcome.png);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page1">
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>675</width>
+        <height>140</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 122, 255);</string>
+      </property>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>59</x>
+         <y>20</y>
+         <width>121</width>
+         <height>100</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/qt pic/icon_pic.png);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label2">
+       <property name="geometry">
+        <rect>
+         <x>475</x>
+         <y>30</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>（2110508）</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label3">
+       <property name="geometry">
+        <rect>
+         <x>435</x>
+         <y>60</y>
+         <width>240</width>
+         <height>60</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>计算机科学与技术</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label1">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>30</y>
+         <width>72</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>杨冰雪</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>30</y>
+         <width>55</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>学号：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>30</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>姓名：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>80</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>专业：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>80</y>
+         <width>60</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>性别：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>80</y>
+         <width>72</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>男/女</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>138</y>
+        <width>675</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>34</x>
+         <y>2</y>
+         <width>675</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string> 联系方式                                                                    &gt;     </string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>34</x>
+         <y>34</y>
+         <width>675</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>历史记录                                                                    &gt;    </string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>34</x>
+         <y>66</y>
+         <width>675</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>修改密码                                                                    &gt;    </string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>34</x>
+         <y>98</y>
+         <width>675</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>退出登录                                                                    &gt;    </string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>-3</x>
+         <y>2</y>
+         <width>40</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+image: url(:/qt pic/telephone.png);
+</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>37</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/qt pic/time.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_7" native="true">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>73</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/qt pic/pwd.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_8" native="true">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>105</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/qt pic/back.png);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>34</x>
+         <y>130</y>
+         <width>641</width>
+         <height>34</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>140</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>注销账号</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_16" native="true">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>135</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/qt pic/no.png);</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page2">
+     <widget class="QWidget" name="widget_9" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>675</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 122, 255);</string>
+      </property>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>8</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>预约列表</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>40</y>
+        <width>85</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(153, 153, 153);
+color:rgb(20, 122, 255);</string>
+      </property>
+      <property name="text">
+       <string>历史记录</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_10" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>70</y>
+        <width>675</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>8</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>区域</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>32</x>
+         <y>38</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </widget>
+      <widget class="Line" name="line">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>675</width>
+         <height>3</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_11" native="true">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>65</y>
+         <width>25</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/qt pic/time1.png);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>68</x>
+         <y>68</y>
+         <width>160</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>2023-09-02 22:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>70</y>
+         <width>20</width>
+         <height>10</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>238</x>
+         <y>68</y>
+         <width>72</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>23:00</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>599</x>
+         <y>35</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(73, 155, 255);</string>
+       </property>
+       <property name="text">
+        <string>未开始</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>53</x>
+         <y>37</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>区</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>85</y>
+         <width>93</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 157, 159);
+color: rgb(255, 5, 38);</string>
+       </property>
+       <property name="text">
+        <string>取消预约</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>38</y>
+         <width>15</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>92</x>
+         <y>40</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>号</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>暂无预约记录</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page3">
+     <widget class="QWidget" name="widget_12" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>675</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 122, 255);
+</string>
+      </property>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>5</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>浴园洗浴男/女部预约</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_13" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>40</y>
+        <width>681</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/qt pic/washroom.jpg);
+background-color: rgb(247, 247, 247);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>77</y>
+         <width>110</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/qt pic/green.jpg);
+color: rgb(255, 255, 255);
+border-image: url(:/qt pic/green.jpg);
+background-image: url(:/qt pic/green.jpg);</string>
+       </property>
+       <property name="text">
+        <string>确定预约</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>218</y>
+         <width>110</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/qt pic/blue.jpg);
+border-image: url(:/qt pic/blue.jpg);
+image: url(:/qt pic/blue.jpg);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>确定预约</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>110</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/qt pic/light.jpg);
+color: rgb(255, 255, 255);
+border-image: url(:/qt pic/light.jpg);
+image: url(:/qt pic/light.jpg);</string>
+       </property>
+       <property name="text">
+        <string>确定预约</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>117</y>
+         <width>110</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/qt pic/orange.jpg);
+border-image: url(:/qt pic/orange.jpg);
+image: url(:/qt pic/orange.jpg);
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>确定预约</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>218</y>
+         <width>110</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/qt pic/pink.jpg);
+color: rgb(255, 255, 255);
+border-image: url(:/qt pic/pink.jpg);
+image: url(:/qt pic/pink.jpg);</string>
+       </property>
+       <property name="text">
+        <string>确定预约</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page4">
+     <widget class="QWidget" name="widget_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>675</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 122, 255);</string>
+      </property>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>8</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>通知列表</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>681</width>
+        <height>321</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page5">
+     <widget class="QWidget" name="widget_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>675</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 122, 255);</string>
+      </property>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>8</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>进行反馈</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>681</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>501</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>40</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>确定反馈</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>72</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(69, 125, 255);</string>
+      </property>
+      <property name="text">
+       <string>我的反馈</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>140</y>
+        <width>681</width>
+        <height>211</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page6">
+     <widget class="QWidget" name="widget_14" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>675</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(20, 122, 255);
+</string>
+      </property>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>7</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Agency FB</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>预约规则</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>681</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919;&quot;&gt;1、营业时间&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;浴园营业期间严格执行&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; font-weight:600; color:#191919; background-color:#ffffff;&quot;&gt;当日预约当日使用&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;制度，营业时间为 &lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; font-weight:696; color:#191919; background-color:#ffffff;&quot;&gt;15:00-23:00&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;，其中每日12:00前将进行全面卫生清扫、消毒和通风。 &lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; font-weight:696; color:#191919; background-color:#ffffff;&quot;&gt;每日0:00之后便可预约当天的洗浴。&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;男生和女生每日都开放&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919;&quot;&gt; 8个预约时段，&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;每时段可预约100人。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt;一、 15：00-16：00（60分钟）； &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt;二、 16：00-17：00（60分钟）； &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt;三、 17：00-18：00（60分钟）；&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt; 四、 18：00-19：00（60分钟）； &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt;五、 19：00-20：00（60分钟）；&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt; 六、 20：00-21：00（60分钟）；&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt; 七、 21：00-22：00（60分钟）；&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt; 八、 22：00-23：00（60分钟）；&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt;2、预约规则&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt;在预约时间段开始之前，可以预约相应时间，也可以取消预约，但一旦预约开始，便无法取消预约，所以在预约成功后请不要随意放弃资格，&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-weight:600; color:#191919; background-color:#ffffff;&quot;&gt;如不能在指定时间洗浴，请提前退订，&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; color:#191919; background-color:#ffffff;&quot;&gt;将资源留给他人。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919;&quot;&gt;3.洗浴流程&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; font-weight:600; color:#191919;&quot;&gt;根据预约的区域号领取对应的号码牌及钥匙，&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; font-weight:600; color:#191919; background-color:#ffffff;&quot;&gt;根据性别到达号码牌指定浴区。&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;请不要走错位置，洗浴结束后，&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; font-weight:600; color:#191919; background-color:#ffffff;&quot;&gt;请及时&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; font-weight:600; color:#191919;&quot;&gt;归还号码牌及钥匙，&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;带齐个人用品。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;4.温馨提示&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:11px; margin-bottom:32px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'PingFang SC,Arial,微软雅黑,宋体,simsun,sans-serif'; font-size:16px; color:#191919; background-color:#ffffff;&quot;&gt;周六日正常营业，法定节假日等会调整营业时间，请关注当时通知。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>825</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
